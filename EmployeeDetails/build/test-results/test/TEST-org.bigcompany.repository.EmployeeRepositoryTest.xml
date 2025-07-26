@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.bigcompany.repository.EmployeeRepositoryTest" tests="4" skipped="0" failures="0" errors="0" timestamp="2025-07-26T11:34:14" hostname="DESKTOP-PU4ALMC" time="0.006">
+  <properties/>
+  <testcase name="testLoadAllEmployees" classname="org.bigcompany.repository.EmployeeRepositoryTest" time="0.001"/>
+  <testcase name="testHierarchyLinking" classname="org.bigcompany.repository.EmployeeRepositoryTest" time="0.001"/>
+  <testcase name="testThrowsOnInvalidManager" classname="org.bigcompany.repository.EmployeeRepositoryTest" time="0.001"/>
+  <testcase name="testGetCEO" classname="org.bigcompany.repository.EmployeeRepositoryTest" time="0.001"/>
+  <system-out><![CDATA[Loaded employee IDs: [305, 306, 307, 308, 123, 124, 300, 125]
+Loaded employee IDs: [305, 306, 307, 308, 123, 124, 300, 125]
+Loaded employee IDs: [305, 306, 307, 308, 123, 124, 300, 125]
+Loaded employee IDs: [305, 306, 307, 308, 123, 124, 300, 125]
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

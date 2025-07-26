@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.bigcompany.service.ManagerSalaryIssueTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2025-07-26T11:34:14" hostname="DESKTOP-PU4ALMC" time="0.002">
+  <properties/>
+  <testcase name="testFindManagersWithSalaryIssues" classname="org.bigcompany.service.ManagerSalaryIssueTest" time="0.002"/>
+  <system-out><![CDATA[Loaded employee IDs: [305, 306, 307, 308, 123, 124, 300, 125]
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
