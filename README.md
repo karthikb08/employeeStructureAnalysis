@@ -1,3 +1,21 @@
-BIG COMPANY Organizational Structure Analyzer is a Java application that reads employee data from a CSV file, analyzes manager salary compliance and reporting line lengths, and identifies managers who are underpaid or overpaid as well as employees with excessively long reporting chains.
+# BIG COMPANY Organizational Structure Analyzer
 
-If you want, I can help you draft a more detailed README section as well!
+This Java application reads employee data from a CSV file, builds the organizational hierarchy, and performs analysis to:
+
+- Identify managers who are **underpaid** or **overpaid** based on the average salary of their direct subordinates.
+- Detect employees with **too long reporting lines** (more than 4 managers between them and the CEO).
+
+## Key Components
+
+- **Employee Model:** Represents employee data and relationships.
+- **EmployeeRepository:** Loads employee data and builds the hierarchy.
+- **OrgAnalyzerService:** Contains business logic to analyze salaries and reporting lines.
+- **ManagerSalaryIssue & ReportingLineIssue:** Data classes representing analysis results.
+- **EmployeeAnalysisApp:** Main class that runs the analysis and outputs the report.
+
+## Usage
+
+Run the application with the employee CSV file included in the classpath.  
+The program prints a report highlighting salary issues and reporting line problems.
+
+---
